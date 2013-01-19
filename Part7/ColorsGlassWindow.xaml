@@ -1,0 +1,36 @@
+﻿<Controls:GlassWindow 
+       x:Class="FluidKit.NMT.GlassWindow.ColorsGlassWindow" 
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"        
+       xmlns:Controls="clr-namespace:FluidKit.Controls;assembly=FluidKit" 
+       xmlns:sys="clr-namespace:System;assembly=mscorlib"
+       Title="Configuración de colores" 
+       Height="600" Width="500"
+       xmlns:osc="clr-namespace:OpenSourceControls"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"                      
+       Icon="Media/Imagenes/AppIcon.png">
+    
+    <Grid >        
+        <TabControl   Name="tabControl1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" BorderBrush="#F7000000" Background="#00000000" FontFamily="Calibri">            
+            <TabItem Header="Paleta de colores" Name="tabDatos" HorizontalAlignment="Center">
+                <Grid Opacity="1">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#5F000000" Offset="0" />
+                            <GradientStop Color="White" Offset="1" />
+                            <GradientStop Color="#773C4141" Offset="0.257" />
+                            <GradientStop Color="#B7A3B5B5" Offset="0.665" />
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"  Margin="0,0,0,55">
+                        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Top"  Name="spColors"   CanVerticallyScroll="True" >
+
+                        </StackPanel>
+                    </ScrollViewer>
+                    <Button Content="Actualizar" Height="23" HorizontalAlignment="Center" Name="btnActualizar" VerticalAlignment="Bottom" Width="75" Click="btnActualizar_Click" Margin="196,0,196,16" />
+                </Grid>
+            </TabItem>
+            
+        </TabControl>
+    </Grid>
+</Controls:GlassWindow>

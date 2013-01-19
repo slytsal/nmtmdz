@@ -1,0 +1,39 @@
+﻿<Window x:Class="Ded.Tutorial.Wpf.CoverFlow.Part7.TestWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WPF Coverflow" KeyDown="Window_KeyDown"
+    Width="1224" Height="800" Topmost="True" WindowStyle="None"
+    xmlns:flow="clr-namespace:Ded.Tutorial.Wpf.CoverFlow.Part7.FlowComponent;assembly=Ded.Tutorial.Wpf.CoverFlow.Part7.FlowComponent">
+  <Grid>
+    <flow:FlowControl x:Name="flow" Margin="0" Width="Auto" Height="Auto"></flow:FlowControl>
+    <Slider Height="20" Margin="33,0,33,83" Name="slider" VerticalAlignment="Bottom" ValueChanged="slider_ValueChanged" Focusable="False" />
+    <Image Name="image1" Stretch="Fill" Source="/Ded.Tutorial.Wpf.CoverFlow.Part7;component/Media/Imagenes/titulo.png" Height="114" VerticalAlignment="Top" HorizontalAlignment="Left" Width="467" Margin="0,6,0,0" />
+        <Rectangle Height="62" Name="rectangle1" Stroke="Black" VerticalAlignment="Bottom" Fill="DarkBlue" Margin="0,0,0,1" />
+        <StatusBar Height="60" Name="statusBar1" VerticalAlignment="Bottom" Foreground="White" Background="#1563AF" OpacityMask="Gray" IsTabStop="False" AllowDrop="True">
+            <Grid>
+                <TextBlock Foreground="#DDC306" Margin="0,-18,0,0" Height="19" VerticalAlignment="Top">Version</TextBlock>
+                <TextBlock Foreground="#DDC306" Margin="0,0,0,-19" Height="15.96" VerticalAlignment="Bottom">1.0.0</TextBlock>
+            </Grid>            
+            <Separator/>
+            <Grid>
+                
+                <TextBlock Foreground="#B49028" Margin="0,-18,0,-1">Última sincronización </TextBlock>
+                <TextBlock Foreground="White" Margin="0,0,0,-24" Height="15.96" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="43">Octubre </TextBlock>
+                <TextBlock Foreground="White" Margin="58,0,49,-29" Height="25.96" VerticalAlignment="Bottom" FontSize="18">20</TextBlock>
+                <TextBlock Foreground="White" Margin="95,0,0,-24" Height="15.96" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="43">2011</TextBlock>
+            </Grid>
+            <Separator/>
+            <Grid>
+
+                <TextBlock Foreground="White" Name="tbUsuario" Margin="0,-18,0,-1" Uid="tbUsuario">jmartinez</TextBlock>
+                <TextBlock Foreground="White" Margin="0,0,0,-24" Height="15.96" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="70">Territorio : </TextBlock>
+                <TextBlock Foreground="White" Name="tbTerrirotio" Margin="98,0,49,-29" Height="25.96" VerticalAlignment="Bottom" FontSize="18">792519</TextBlock>
+                
+            </Grid>
+            <Separator/>
+            <Grid>
+            </Grid>
+        </StatusBar>
+        <Image Height="48" HorizontalAlignment="Right" Margin="0,0,212,6" Name="image2" Stretch="Fill" VerticalAlignment="Bottom" Width="48" Source="/Ded.Tutorial.Wpf.CoverFlow.Part7;component/Media/Imagenes/conect.png" />
+    </Grid>
+</Window>

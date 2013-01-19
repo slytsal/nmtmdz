@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.ChartComponent">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAABAIABQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\ChartComponent.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.FactoryChart">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Chart\FactoryChart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Domain.Filtro">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAABABAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Domain\Filtro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Domain.Item">
+    <Position X="4.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Domain\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.Chartcomponent.Domain.SeriesColor">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Domain\SeriesColor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.AgotamientoNumerico" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\AgotamientoNumerico.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.ClientesITOVsClientesUX" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\ClientesITOVsClientesUX.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.EfectividadMDZ" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\EfectividadMDZ.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.EjecucionDeCalidad" BaseTypeListCollapsed="true">
+    <Position X="12" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\EjecucionDeCalidad.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.FrecuenciaDeVisitas" BaseTypeListCollapsed="true">
+    <Position X="17" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\FrecuenciaDeVisitas.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.KPISOM" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\KPISOM.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.Manejos" BaseTypeListCollapsed="true">
+    <Position X="12" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\Manejos.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.MDZCoverage" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\MDZCoverage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.MDZEffectiveDropSize" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\MDZEffectiveDropSize.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.MDZGeneralDropSize" BaseTypeListCollapsed="true">
+    <Position X="17" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\MDZGeneralDropSize.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.MDZSKUAverage" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\MDZSKUAverage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.SellOutKASegmentContribution" BaseTypeListCollapsed="true">
+    <Position X="12" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\SellOutKASegmentContribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.ShareOfSegment" BaseTypeListCollapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\ShareOfSegment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.SharePMMSellOut" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\SharePMMSellOut.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.ShareSKU" BaseTypeListCollapsed="true">
+    <Position X="17" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\ShareSKU.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.SKUAverage" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\SKUAverage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.SobreIndexados" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAAgAEAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\SobreIndexados.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.SwitchSellingEfectivo" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\SwitchSellingEfectivo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.SwitchSellingPorSKU" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\SwitchSellingPorSKU.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.VisitasPlaneadasVsVisitasRealizadas" BaseTypeListCollapsed="true">
+    <Position X="12" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\VisitasPlaneadasVsVisitasRealizadas.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.Volumen" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Reportes\Volumen.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OpenSourceControls.SmallColorPicker">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgQAACAAAAAgAIACAAAAAAAAACIAAgEAAAAAARAAAA=</HashCode>
+      <FileName>Chart\SmallColorPicker.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Utils.Herramientas">
+    <Position X="3.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Chart\Utils\Herramientas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.IChart">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\IChart.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.Reportes.EnumReportes">
+    <Position X="0.5" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABJAAqABAAggAAAAAAABAAAABAAAAAAQAACAAAIIg=</HashCode>
+      <FileName>Chart\Reportes\EnumReportes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

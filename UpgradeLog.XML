@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NMT">
+</Property><Property Name="Solution File" Value="C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\NMT.sln">
+</Property><Property Name="Date" Value="martes, 22 de noviembre de 2011">
+</Property><Property Name="Time" Value="17:07:22 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\FlowComponent.csproj" Description="Project file successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\FlowComponent.csproj">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\Cover.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\Cover.cs">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\CoverFactory.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\CoverFactory.cs">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\FlowControl.xaml.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\FlowControl.xaml.cs">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\ICover.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\ICover.cs">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\ICoverFactory.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\ICoverFactory.cs">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\ImageInfo.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\ImageInfo.cs">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\IThumbnailManager.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\IThumbnailManager.cs">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\FlowControl.xaml" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup\FlowControl.xaml">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\FlowComponent.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FlowComponent" Source="..\FlowComponent\FlowComponent.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FlowComponent" Source="..\FlowComponent\FlowComponent.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

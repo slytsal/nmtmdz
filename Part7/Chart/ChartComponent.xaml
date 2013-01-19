@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="IMC.Wpf.CoverFlow.NMT.ChartComponent.ChartComponent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vc="clr-namespace:Visifire.Charts;assembly=WPFVisifire.Charts"      
+     HorizontalAlignment="Stretch" VerticalAlignment="Stretch" > 
+    <UserControl.Resources>
+        <Style x:Key="ChartStyle" TargetType="{x:Type vc:Chart}" x:Name="Style1">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,0.2" StartPoint="0.5,0.2">
+                    <GradientStop Color="White" Offset="0.04" />
+                    <GradientStop Color="White" Offset="0.912" />
+                    <GradientStop Color="#7F686E82" Offset="0.319" />
+                </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="AnimationEnabled" Value="true"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="ColorSet" Value="Visifire1"/>
+            <Setter Property="LightingEnabled" Value="false"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+        <Style x:Key="TitleStyle" TargetType="{x:Type vc:Title}">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontColor" Value="White"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot">
+        <vc:Chart Name="ChartInit" Theme="Theme1" Style="{StaticResource ChartStyle}"  HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+            <vc:Chart.Titles>
+                <vc:Title Text="Area de indicadores" Style="{StaticResource TitleStyle}"/>
+            </vc:Chart.Titles>
+            <vc:Chart.AxesY>
+                <vc:Axis >
+                    <vc:Axis.Grids>
+                        <vc:ChartGrid InterlacedColor="White"  />
+                    </vc:Axis.Grids>
+                </vc:Axis>
+            </vc:Chart.AxesY>
+            <vc:Chart.Series>
+                <vc:DataSeries RenderAs="Line">
+                    <vc:DataSeries.DataPoints>
+                        <vc:DataPoint YValue="28" AxisXLabel="201011" />
+                        <vc:DataPoint YValue="50" AxisXLabel="201012" />
+                        <vc:DataPoint YValue="35" AxisXLabel="201101"/>
+                        <vc:DataPoint YValue="24" AxisXLabel="201102"/>
+                        <vc:DataPoint YValue="48" AxisXLabel="201104"/>
+                        <vc:DataPoint YValue="60" AxisXLabel="201108"/>
+                        <vc:DataPoint AxisXLabel="201109"/>
+                        <vc:DataPoint AxisXLabel="201110"/>
+                        <vc:DataPoint AxisXLabel="201111"/>
+                        <vc:DataPoint AxisXLabel="201112"/>
+                    </vc:DataSeries.DataPoints>
+                </vc:DataSeries>
+                <vc:DataSeries RenderAs="Line">
+                    <vc:DataSeries.DataPoints>
+                        <vc:DataPoint YValue="18" AxisXLabel="201011" />
+                        <vc:DataPoint YValue="42" AxisXLabel="201012" />
+                        <vc:DataPoint AxisXLabel="201101"/>
+                        <vc:DataPoint AxisXLabel="201102"/>
+                        <vc:DataPoint AxisXLabel="201104"/>
+                        <vc:DataPoint AxisXLabel="201108"/>
+                        <vc:DataPoint YValue="46" AxisXLabel="201109"/>
+                        <vc:DataPoint YValue="62" AxisXLabel="201110"/>
+                        <vc:DataPoint YValue="28" AxisXLabel="201111"/>
+                        <vc:DataPoint YValue="10" AxisXLabel="201112"/>
+                    </vc:DataSeries.DataPoints>
+                </vc:DataSeries>
+            </vc:Chart.Series>
+        </vc:Chart>
+    </Grid>
+</UserControl>

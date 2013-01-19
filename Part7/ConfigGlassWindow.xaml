@@ -1,0 +1,119 @@
+﻿<Controls:GlassWindow 
+       x:Class="FluidKit.NMT.GlassWindow.ConfigGlassWindow" 
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"        
+       xmlns:Controls="clr-namespace:FluidKit.Controls;assembly=FluidKit" 
+       xmlns:sys="clr-namespace:System;assembly=mscorlib"
+       Title="e-Territory WS Configuración" 
+       Height="500" Width="900"
+       xmlns:flow="clr-namespace:IMC.Wpf.CoverFlow.NMT"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"                      
+       Icon="Media/Imagenes/AppIcon.png"
+       
+    >
+    <Window.Resources>
+        <DataTemplate x:Key="TestDataTemplate"
+                      DataType="{x:Type sys:String}">
+            <Border x:Name="ElementVisual"
+                    Background="White"
+                    Padding="5"
+                    BorderThickness="5"
+                    BorderBrush="LightGray"
+                    Grid.Row="0">
+                <Image Source="{Binding}"
+                       Stretch="Fill" />
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid >        
+        <TabControl   Name="tabControl1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" BorderBrush="#F7000000" Background="#00000000" FontFamily="Calibri">            
+            <TabItem Header="Actualización" Name="tabDatos" HorizontalAlignment="Center">
+                <Grid Opacity="1">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#5F000000" Offset="0" />
+                            <GradientStop Color="White" Offset="1" />
+                            <GradientStop Color="#773C4141" Offset="0.257" />
+                            <GradientStop Color="#B7A3B5B5" Offset="0.665" />
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <ProgressBar Height="28" HorizontalAlignment="Left" Margin="56,188,0,0" Name="pBar" VerticalAlignment="Top" Width="729" />
+                    <Button Content="Actualizar" Height="23" HorizontalAlignment="Left" Margin="712,389,0,0" Name="btActData" VerticalAlignment="Top" Width="73" Click="btActData_Click" />
+                    <TextBox Margin="56,222,83,47" Name="tbProceso" VerticalScrollBarVisibility="Auto" Width="729" />
+                    <Image Height="96" HorizontalAlignment="Left" Margin="56,31,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="117" Source="/IMC.Wpf.CoverFlow.NMT;component/Media/Imagenes/AppIcon.png" />
+                    <Label Content="Progreso de la actualización:" Height="28" HorizontalAlignment="Left" Margin="58,161,0,0" Name="label1" VerticalAlignment="Top" Width="169" FontFamily="Calibri" Foreground="White" />
+                    <Label Content="Fecha última actualización" Height="28" HorizontalAlignment="Left" Margin="191,99,0,0" Name="label12" VerticalAlignment="Top" Width="159" FontFamily="Calibri" FontWeight="Bold" Foreground="White" />
+                    <Label Content="Versión" Height="26" HorizontalAlignment="Left" Margin="191,125,0,0" Name="label32" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Bold" Foreground="White" />
+                    <Label Content="2011-12-12" Height="28" HorizontalAlignment="Left" Margin="356,99,0,0" Name="lblFecha" VerticalAlignment="Top" Width="276" FontFamily="Calibri" Foreground="White" />
+                    <Label Content="1.0.1" Height="28" HorizontalAlignment="Left" Margin="356,125,0,0" Name="lblVersion" VerticalAlignment="Top" Width="73" FontFamily="Calibri" Foreground="White" />
+                    <Label Content="Actualización información" Height="36" HorizontalAlignment="Left" Margin="356,31,0,0" Name="label2" VerticalAlignment="Top" Width="276" FontWeight="Bold" FontFamily="Calibri" Foreground="White" FontSize="18" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Estilo" Name="tabEstilo" >                
+                <Grid  >
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#B8000000" Offset="0" />
+                            <GradientStop Color="White" Offset="1" />
+                            <GradientStop Color="#CA3C4141" Offset="0.257" />
+                            <GradientStop Color="#EAA3B5B5" Offset="0.665" />
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Controls:ElementFlow x:Name="_elementFlow"
+                              Grid.Row="0"
+                              Grid.Column="0"
+                              Grid.ColumnSpan="2"                              
+                              ItemTemplate="{DynamicResource TestDataTemplate}"
+                              TiltAngle="{Binding Value, ElementName=_tiltAngleSlider}"
+                              ItemGap="0.9"
+                              FrontItemGap="0.3"
+                              PopoutDistance="0.5"
+                              ElementWidth="300"
+                              ElementHeight="200"
+                              SelectedIndex="1">
+                        <Controls:ElementFlow.Layout>
+                            <Controls:CoverFlow />
+                        </Controls:ElementFlow.Layout>
+                        <Controls:ElementFlow.Background>
+                            <LinearGradientBrush EndPoint="0.5,1"
+                                     StartPoint="0.5,0">
+                                <GradientStop Color="#00181818" />
+                                <GradientStop Color="#007A7A7A"
+                                  Offset="0.5" />
+                                <GradientStop Color="#001A1A1A"
+                                  Offset="1" />
+                            </LinearGradientBrush>
+                        </Controls:ElementFlow.Background>
+                        <Controls:ElementFlow.Camera>
+                            <PerspectiveCamera FieldOfView="60"
+                                   Position="0,3,6"
+                                   LookDirection="0,-3,-6" />
+                        </Controls:ElementFlow.Camera>
+                    </Controls:ElementFlow>
+                    
+                </Grid>
+            </TabItem>
+            <TabItem Header="Aplicación" Name="tabAplicacion" HorizontalAlignment="Center">
+                <Grid Opacity="1">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#5F000000" Offset="0" />
+                            <GradientStop Color="White" Offset="1" />
+                            <GradientStop Color="#773C4141" Offset="0.257" />
+                            <GradientStop Color="#B7A3B5B5" Offset="0.665" />
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Button Content="Actualizar" Height="23" HorizontalAlignment="Left" Margin="409,205,0,0" Name="btActAPP" VerticalAlignment="Top" Width="73" Click="btActAPP_Click" />
+                    
+                    <Image Height="96" HorizontalAlignment="Left" Margin="56,31,0,0" Name="image12" Stretch="Fill" VerticalAlignment="Top" Width="117" Source="/IMC.Wpf.CoverFlow.NMT;component/Media/Imagenes/AppIcon.png" />                    
+                    <Label Content="Fecha última actualización" Height="28" HorizontalAlignment="Left" Margin="191,99,0,0" Name="label122" VerticalAlignment="Top" Width="159" FontFamily="Calibri" FontWeight="Bold" Foreground="White" />
+                    <Label Content="Versión" Height="26" HorizontalAlignment="Left" Margin="191,125,0,0" Name="label322" VerticalAlignment="Top" FontFamily="Calibri" FontWeight="Bold" Foreground="White" />
+                    <Label Content="2011-12-12" Height="28" HorizontalAlignment="Left" Margin="356,99,0,0" Name="lblFechaAplicacion" VerticalAlignment="Top" Width="276" FontFamily="Calibri" Foreground="White" />
+                    <Label Content="1.0.1" Height="28" HorizontalAlignment="Left" Margin="356,125,0,0" Name="lblVersionAplicacion" VerticalAlignment="Top" Width="73" FontFamily="Calibri" Foreground="White" />
+                    <Label Content="Actualización aplicación" Height="36" HorizontalAlignment="Left" Margin="356,31,0,0" Name="label22" VerticalAlignment="Top" Width="276" FontWeight="Bold" FontFamily="Calibri" Foreground="White" FontSize="18" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Controls:GlassWindow>

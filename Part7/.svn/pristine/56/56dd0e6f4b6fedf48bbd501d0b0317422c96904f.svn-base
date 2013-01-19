@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FluidKit.NMT.GlassWindow.ColorsGlassWindow">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColorsGlassWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FluidKit.NMT.GlassWindow.ConfigGlassWindow">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="FluidKit.NMT.GlassWindow.ConfigGlassWindow.UpdateProgressBarDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ConfigGlassWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAkAAUAAAQACAChMEEAQAEJEgIAIUEAUAQCAggQAI=</HashCode>
+      <FileName>ConfigGlassWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.IndicadorWindow">
+    <Position X="9" Y="0.5" Width="3" />
+    <NestedTypes>
+      <Class Name="IMC.Wpf.CoverFlow.NMT.IndicadorWindow.FileInfoComparer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>IndicadorWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ADACgBACjCARAcBDDMMQcAAgQABABBZAUwAAAAbAZkg=</HashCode>
+      <FileName>IndicadorWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.PrincipalWindow">
+    <Position X="6" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Class Name="IMC.Wpf.CoverFlow.NMT.PrincipalWindow.FileInfoComparer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PrincipalWindow.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAGoAACDCKAAEADBINIVAAABABAhAZAUgABAACCAEg=</HashCode>
+      <FileName>PrincipalWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.FlowControl">
+    <Position X="12.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>oEIAAAAsQAAAAAgBQgAABgcEAQAAggAiEAEAkgABAQA=</HashCode>
+      <FileName>FlowComponent\FlowControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMC.Wpf.CoverFlow.NMT.ChartComponent.ChartComponent">
+    <Position X="14.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAABAIABQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Chart\ChartComponent.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenSourceControls.SmallColorPicker">
+    <Position X="14.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgQAACAAAAAgAIACAAAAAAAAACIAAgEAAAAAARAAAA=</HashCode>
+      <FileName>Chart\SmallColorPicker.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

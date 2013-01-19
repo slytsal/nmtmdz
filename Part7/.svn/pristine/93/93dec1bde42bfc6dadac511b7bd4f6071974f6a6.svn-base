@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="IMC.Wpf.CoverFlow.NMT.ChartComponent.CharComponentFacturado"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vc="clr-namespace:Visifire.Charts;assembly=WPFVisifire.Charts"      
+             mc:Ignorable="d" 
+            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  xmlns:my="clr-namespace:IMC.Wpf.CoverFlow.NMT.ChartComponent" d:DesignWidth="1085" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <Style x:Key="ChartStyle" TargetType="{x:Type vc:Chart}" x:Name="Style1">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,0.2" StartPoint="0.5,0.2">
+                        <GradientStop Color="White" Offset="0.04" />
+                        <GradientStop Color="White" Offset="0.912" />
+                        <GradientStop Color="#7F686E82" Offset="0.319" />
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="AnimationEnabled" Value="true"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="ColorSet" Value="Visifire1"/>
+            <Setter Property="LightingEnabled" Value="false"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+        <Style x:Key="TitleStyle" TargetType="{x:Type vc:Title}">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontColor" Value="White"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid x:Name="General" Height="550" Width="1152">
+        <Grid x:Name="LayoutFacturado1" Height="250" HorizontalAlignment="Center" Width="900" VerticalAlignment="Top" Margin="7,0,245,0">
+            <vc:Chart x:Name="Graphic1" Theme="Theme1" Style="{StaticResource ChartStyle}" HorizontalContentAlignment="Stretch"  HorizontalAlignment="Stretch"/>
+        </Grid>
+        <Grid x:Name="LayoutFacturado2" Height="240" HorizontalAlignment="center" Width="900" VerticalAlignment="Bottom" Margin="9,0,243,32">
+            <vc:Chart x:Name="Graphic2" Theme="Theme1" Style="{StaticResource ChartStyle}" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch"/>
+        </Grid>
+        <Button Content="Total Anual YTD" Height="49" HorizontalAlignment="Left" Margin="930,469,0,0" Name="button1" VerticalAlignment="Top" Width="138" Click="button1_Click" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NMT">
+</Property><Property Name="Solution File" Value="C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\NMT.sln">
+</Property><Property Name="Date" Value="martes, 22 de noviembre de 2011">
+</Property><Property Name="Time" Value="17:07:45 p.m.">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Part7.csproj" Description="Project file successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\Part7.csproj">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Part7.csproj.user" Description="Project user file successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\Part7.csproj.user">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\App.xaml.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\TestWindow.xaml.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\TestWindow.xaml.cs">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\ThumbnailManager.cs" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\ThumbnailManager.cs">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Properties\Settings.settings" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Properties\Resources.resx" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\App.xaml" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\App.xaml">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Themes\Generic.xaml" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\Themes\Generic.xaml">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\TestWindow.xaml" Description="File successfully backed up as C:\Users\Asine\Documents\Visual Studio 2010\Projects\NMT\Desarrollo\4. Construcción\NMT\NMT\Backup1\TestWindow.xaml">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Part7.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Part7" Source="..\Part7\Part7.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Part7" Source="..\Part7\Part7.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

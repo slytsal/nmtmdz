@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26D0B7C9-02A1-45FE-957D-08A369D7A683}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IMC.Wpf.CoverFlow.NMT</RootNamespace>
+    <AssemblyName>IMC.Wpf.CoverFlow.NMT</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Media\Imagenes\AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="7zSharp, Version=1.0.3.0, Culture=neutral, PublicKeyToken=aa6a31abd3bf9e52, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>COM\7zSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SQLServer.ManagedDTS, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>COM\Microsoft.SQLServer.ManagedDTS.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.XML" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WPFVisifire.Charts, Version=4.1.4.0, Culture=neutral, PublicKeyToken=0cd785983078370b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>COM\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFVisifire.Gauges, Version=4.1.4.0, Culture=neutral, PublicKeyToken=9f7ad624e345692d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>COM\WPFVisifire.Gauges.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Chart\ChartComponent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Chart\SmallColorPicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Chart\Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ComboWithCheckboxes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ColorsGlassWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FacturadoWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FlowComponent\FlowControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="IndicadorWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ConfigGlassWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PrincipalWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chart\ChartComponent.xaml.cs">
+      <DependentUpon>ChartComponent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\DatosGrid.cs" />
+    <Compile Include="Chart\Domain\Filtro.cs" />
+    <Compile Include="Chart\Domain\Item.cs" />
+    <Compile Include="Chart\Domain\SeriesColor.cs" />
+    <Compile Include="Chart\FactoryChart.cs" />
+    <Compile Include="Chart\IChart.cs" />
+    <Compile Include="Chart\Reportes\AgotamientoNumerico.cs" />
+    <Compile Include="Chart\Reportes\Clientes.cs" />
+    <Compile Include="Chart\Reportes\ClientesITOVsClientesUX.cs" />
+    <Compile Include="Chart\Reportes\ClientesPorVisibilidad.cs" />
+    <Compile Include="Chart\Reportes\ConsultaPorCliente.cs" />
+    <Compile Include="Chart\Reportes\DistibucionPDVGrupo.cs" />
+    <Compile Include="Chart\Reportes\Facturado.cs" />
+    <Compile Include="Chart\Reportes\MDZSKUAverage.cs" />
+    <Compile Include="Chart\Reportes\MDZCoverage.cs" />
+    <Compile Include="Chart\Reportes\MDZGeneralDropSize.cs" />
+    <Compile Include="Chart\Reportes\MDZEffectiveDropSize.cs" />
+    <Compile Include="Chart\Reportes\PorcentajeClientesPrecioCorrecto.cs" />
+    <Compile Include="Chart\Reportes\PromedioMarcasFacturadas.cs" />
+    <Compile Include="Chart\Reportes\SellOutKASegmentContribution.cs" />
+    <Compile Include="Chart\Reportes\EfectividadMDZ.cs" />
+    <Compile Include="Chart\Reportes\EjecucionDeCalidad.cs" />
+    <Compile Include="Chart\Reportes\FrecuenciaDeVisitas.cs" />
+    <Compile Include="Chart\Reportes\KPISOM.cs" />
+    <Compile Include="Chart\Reportes\Manejos.cs" />
+    <Compile Include="Chart\Reportes\ShareOfSegment.cs" />
+    <Compile Include="Chart\Reportes\SharePMMSellOut.cs" />
+    <Compile Include="Chart\Reportes\EnumReportes.cs" />
+    <Compile Include="Chart\Reportes\ShareSKU.cs" />
+    <Compile Include="Chart\Reportes\SKUAverage.cs" />
+    <Compile Include="Chart\Reportes\SobreIndexados.cs" />
+    <Compile Include="Chart\Reportes\SwitchSellingEfectivo.cs" />
+    <Compile Include="Chart\Reportes\SwitchSellingPorSKU.cs" />
+    <Compile Include="Chart\Reportes\VisitasPlaneadas.cs" />
+    <Compile Include="Chart\Reportes\VisitasPlaneadasVsVisitasRealizadas.cs" />
+    <Compile Include="Chart\Reportes\Volumen.cs" />
+    <Compile Include="Chart\Reportes\VolumenPorGrupo.cs" />
+    <Compile Include="Chart\SmallColorPicker.xaml.cs">
+      <DependentUpon>SmallColorPicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Chart\Utils\Herramientas.cs" />
+    <Compile Include="Chart\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ComboWithCheckboxes.xaml.cs">
+      <DependentUpon>ComboWithCheckboxes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ColorsGlassWindow.xaml.cs">
+      <DependentUpon>ColorsGlassWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ETL\RunFromClientAppWithEventsCS.cs" />
+    <Compile Include="ETL\ZipUtil.cs" />
+    <Compile Include="ExportarExcelViewModel.cs" />
+    <Compile Include="ExportExampleAttribute.cs" />
+    <Compile Include="FacturadoWindow.xaml.cs">
+      <DependentUpon>FacturadoWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FlowComponent\Cover.cs" />
+    <Compile Include="FlowComponent\CoverFactory.cs" />
+    <Compile Include="FlowComponent\FlowControl.xaml.cs">
+      <DependentUpon>FlowControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FlowComponent\ICover.cs" />
+    <Compile Include="FlowComponent\ICoverFactory.cs" />
+    <Compile Include="FlowComponent\ImageInfo.cs" />
+    <Compile Include="FlowComponent\IThumbnailManager.cs" />
+    <Compile Include="IMCEXT\AppSettings.cs" />
+    <Compile Include="IMCEXT\CustomParts.cs" />
+    <Compile Include="IndicadorWindow.xaml.cs">
+      <DependentUpon>IndicadorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigGlassWindow.xaml.cs">
+      <DependentUpon>ConfigGlassWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Media\Util.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="PrincipalWindow.xaml.cs">
+      <DependentUpon>PrincipalWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ThumbnailManager.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Diagramas\ClassDiagramChart.cd" />
+    <None Include="Diagramas\ClassDiagramWPF.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FluidKit\FluidKit.csproj">
+      <Project>{75541544-BF77-4FDC-B03B-BC0DBEBFB8F5}</Project>
+      <Name>FluidKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NMT\NMT_ESC_BLL\NMT_ESC_BLL.csproj">
+      <Project>{68603387-2913-4AEE-9C12-18FCEF55C2A3}</Project>
+      <Name>NMT_ESC_BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NMT_ESC_DAL\NMT_ESC_DAL.csproj">
+      <Project>{DE259696-0027-4A7A-8A9B-27A3E4465650}</Project>
+      <Name>NMT_ESC_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\titulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\conect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\disconect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\3No.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\fondoInd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\snap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Media\Imagenes\small.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dll\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AppIcon.ico" />
+    <Content Include="COM\7zSharp.dll" />
+    <Content Include="COM\ICSharpCode.SharpZipLib.dll" />
+    <Resource Include="Media\Imagenes\favicon.ico" />
+    <Resource Include="Media\Imagenes\nmt_bottombar_blue.png" />
+    <Resource Include="Media\Imagenes\nmt_bottombar_green.png" />
+    <Resource Include="Media\Imagenes\nmt_bottombar_orange.png" />
+    <Resource Include="Media\Imagenes\nmt_bottombar_purple.png" />
+    <Resource Include="Media\Imagenes\snap2.png" />
+    <Resource Include="Media\Imagenes\snap3.png" />
+    <Resource Include="Media\Imagenes\snap4.png" />
+    <Resource Include="Media\Imagenes\AppIcon.ico" />
+    <Content Include="Media\Imagenes\TODOS.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Imagenes\AGUILA.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Imagenes\COBRA.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Imagenes\LOBO.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Imagenes\PEZ.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Imagenes\TIGRE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Script\ScriptSP.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Script\Script.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Media\Imagenes\filtrar2.png" />
+    <Resource Include="Media\Imagenes\filtrar3.png" />
+    <Resource Include="Media\Imagenes\filtrar4.png" />
+    <Resource Include="Media\Imagenes\pallete.jpg" />
+    <Resource Include="Media\Imagenes\pallete.png" />
+    <Content Include="Media\Sounds\snap.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Sounds\click.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Media\Sounds\over.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Media\Imagenes\noimage.png" />
+    <Resource Include="Media\Imagenes\forward2.png" />
+    <Resource Include="Media\Imagenes\forward3.png" />
+    <Resource Include="Media\Imagenes\forward4.png" />
+    <Resource Include="Media\Imagenes\back2.png" />
+    <Resource Include="Media\Imagenes\back3.png" />
+    <Resource Include="Media\Imagenes\back4.png" />
+    <Resource Include="Media\Imagenes\42.png" />
+    <Resource Include="Media\Imagenes\43.png" />
+    <Resource Include="Media\Imagenes\44.png" />
+    <Resource Include="Media\Imagenes\titulo3.png" />
+    <Resource Include="Media\Imagenes\titulo4.png" />
+    <Resource Include="Media\Imagenes\titulo2.png" />
+    <Resource Include="Media\Imagenes\skin10.jpg" />
+    <Resource Include="Media\Imagenes\skin20.jpg" />
+    <Resource Include="Media\Imagenes\skin30.jpg" />
+    <Resource Include="Media\Imagenes\skin40.jpg" />
+    <Resource Include="Media\Imagenes\skin2.jpg" />
+    <Resource Include="Media\Imagenes\skin3.jpg" />
+    <Resource Include="Media\Imagenes\skin4.jpg" />
+    <Resource Include="Media\Imagenes\skin1.jpg" />
+    <Resource Include="Media\Imagenes\skin1.gif" />
+    <Resource Include="Media\Imagenes\skin1.png" />
+    <Resource Include="Media\Imagenes\skin2.png" />
+    <Resource Include="Media\Imagenes\skin3.png" />
+    <Resource Include="Media\Imagenes\skin4.png" />
+    <Resource Include="Media\Imagenes\filtrar.png" />
+    <Resource Include="Media\Imagenes\AppIcon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="COM\ReadMe.txt" />
+    <Content Include="COM\Microsoft.SQLServer.ManagedDTS.dll" />
+    <Content Include="COM\WPFVisifire.Charts.dll" />
+    <Content Include="COM\WPFVisifire.Gauges.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
