@@ -77,12 +77,6 @@
   <ItemGroup>
     <Content Include="COM\Microsoft.SQLServer.ManagedDTS.dll" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\NMT_ESC_DAL\NMT_ESC_DAL.csproj">
-      <Project>{DE259696-0027-4A7A-8A9B-27A3E4465650}</Project>
-      <Name>NMT_ESC_DAL</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

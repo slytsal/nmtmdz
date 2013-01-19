@@ -289,7 +289,7 @@
       <Project>{75541544-BF77-4FDC-B03B-BC0DBEBFB8F5}</Project>
       <Name>FluidKit</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NMT\NMT_ESC_BLL\NMT_ESC_BLL.csproj">
+    <ProjectReference Include="..\NMT_ESC_BLL\NMT_ESC_BLL.csproj">
       <Project>{68603387-2913-4AEE-9C12-18FCEF55C2A3}</Project>
       <Name>NMT_ESC_BLL</Name>
     </ProjectReference>
